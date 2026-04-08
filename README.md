@@ -13,12 +13,12 @@ The application follows a conversational AI pipeline:
 6. This loop continues, maintaining context across the entire session using Streamlit session state.
 
 **Components Used:**
-streamlit                                Frontend UI — chat interface, session state, page config
-langchain_groq                           LangChain integration with Groq's API
-langchain_core.prompts.PromptTemplate    Builds the structured prompt with conversation history
-Groq API                                 Cloud inference provider for the LLaMA model
-llama-3.3-70b-versatile                  The underlying LLM that powers the interviewer
-os                                       Used to set the Groq API key as an environment variable
+1) streamlit: Frontend UI — chat interface, session state, page config
+2) langchain_groq: LangChain integration with Groq's API
+3) langchain_core.prompts.PromptTemplate: Builds the structured prompt with conversation history
+4) Groq API: Cloud inference provider for the LLaMA model
+5) llama-3.3-70b-versatile: The underlying LLM that powers the interviewer
+6) os: Used to set the Groq API key as an environment variable
 
 **How to Run:**
 1. Clone the Repository
@@ -35,7 +35,5 @@ os                                       Used to set the Groq API key as an envi
    streamlit run interview_bot.py
 
 **Requirements:**
-    > streamlit
-    > langchain-groq
-    > langchain-core
+   streamlit, langchain-groq, langchain-core
 
