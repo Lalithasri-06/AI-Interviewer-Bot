@@ -22,17 +22,17 @@ The application follows a conversational AI pipeline:
 
 **How to Run:**
 1. Clone the Repository
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   1. git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   2. cd YOUR_REPO_NAME
 2. Create a Virtual Environment (Recommended)
-    python -m venv venv
-    venv\Scripts\activate
+    1. python -m venv venv
+    2. venv\Scripts\activate
 3. Install Dependencies
-   pip install streamlit langchain-groq langchain-core
+   1. pip install streamlit langchain-groq langchain-core
 4. Set Your Groq API Key
-   ⚠️ Important: Never hardcode your API key in the source code. Use a .env file or environment variable instead.
+   1. ⚠️ Important: Never hardcode your API key in the source code. Use a .env file or environment variable instead.
 5. Run the App
-   streamlit run interview_bot.py
+   1. streamlit run interview_bot.py
 
 **Requirements:**
    streamlit, langchain-groq, langchain-core
