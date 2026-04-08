@@ -26,12 +26,7 @@ os                                       Used to set the Groq API key as an envi
    cd YOUR_REPO_NAME
 2. Create a Virtual Environment (Recommended)
     python -m venv venv
-
-     # On Windows
-      venv\Scripts\activate
-
-     # On Mac/Linux
-      source venv/bin/activate
+    venv\Scripts\activate
 3. Install Dependencies
    pip install streamlit langchain-groq langchain-core
 4. Set Your Groq API Key
